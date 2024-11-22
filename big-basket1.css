@@ -1,0 +1,98 @@
+/* Style for header */
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+/* Style for first line */
+.line1 {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for logo */
+.logo {
+  margin-right: 20px;
+}
+
+/* Style for search input */
+.search {
+  margin-right: 20px;
+}
+
+/* Style for location select */
+.location {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-right: 20px;
+  background-color: white;
+}
+
+/* Style for login/signup button */
+.login-signup, .cart-icon {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.login-signup:hover, .cart-icon:hover {
+  background-color: #45a049;
+}
+
+/* Style for second line */
+.line2 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* Style for shop by category button */
+.shop-category {
+  background-color: #337ab7;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.shop-category:hover {
+  background-color: #286090;
+}
+
+/* Style for category list */
+.category-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for arrow right icon */
+.arrow-right-icon {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #ccc;
+  margin-right: 20px;
+}
+
+/* Style for line symbol */
+.line-symbol {
+  height: 1px;
+  width: 50px;
+  background-color: #ccc;
+  margin-right: 20px;
+}
